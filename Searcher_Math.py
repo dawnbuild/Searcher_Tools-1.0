@@ -80,7 +80,7 @@ def delay():
 
 #clear_System
 def cls():
-    os.system('cls')
+    os.system('clear')
 
 #fake_wifi
 def fake_wifi():
