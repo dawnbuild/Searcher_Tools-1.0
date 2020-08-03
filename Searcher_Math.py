@@ -6,27 +6,54 @@ import time
 def Login():
     print("Welcome Silah kan Masuk Sebelum Masuk")
     
-    print("  ____        _________________     _______________      ____    _____        ___                                    ")
-    print(" |    |      |                 |   |               |    |    |  |      \     |   |                                   ")
-    print(" |    |      |    _________    |   |      _________|    |    |  |       \    |   |                             ")
-    print(" |    |      |   |         |   |   |     |  ________    |    |  |    |\  \   |   |                              ")
-    print(" |    |      |   |         |   |   |     | |        |   |    |  |    | \  \  |   |                             ")
-    print(" |    |      |   |         |   |   |     | |__      |   |    |  |    |  \  \ |   |                                  ")
-    print(" |    |_____ |   |_________|   |   |     |____|     |   |    |  |    |   \  \|   |                              ")
-    print(" |          ||                 |   |                |   |    |  |    |    \      |                               ")
-    print(" |__________||_________________|   |________________|   |____|  |____|     \_____|                                 ")
+    print("  _____        _________________   ______________               ____    _____        ___                                    ")
+    print(" |     |      |                 | |              |             |    |  |      \     |   |                                   ")
+    print(" |     |      |     _______     | |     _________|             |    |  |       \    |   |                             ")
+    print(" |     |      |    |       |    | |    |   _______             |    |  |   |\   \   |   |                              ")
+    print(" |     |      |    |       |    | |    |  |       |  ________  |    |  |   | \   \  |   |                             ")
+    print(" |     |      |    |       |    | |    |  |__     | |        | |    |  |   |  \   \ |   |                                  ")
+    print(" |     |_____ |    |_______|    | |    |_____|    | |________| |    |  |   |   \   \|   |                              ")
+    print(" |           ||                 | |               |            |    |  |   |    \       |                               ")
+    print(" |___________||_________________| |_______________|            |____|  |___|     \______|                                 ")
     
+    print("Note : Type `pls` for Get The Log-In Password, But This is Not Administrator Password")
     password = input("Masukan Password : ")
     
-    if password == 'zahran':
+    if password == 'uwau':
         cls()
         print("Welcome Back")
-        delay()
+        print("                      ````........````                      ")
+        print("          `:s/`    ``````````````````````    .oy/`          ")
+        print("       -.+Nm-   ``.````  ``  ``  ``  ````.``   /NN/::       ")
+        print("     .hosNo:  ```   .````.``o/oy:`.````.   ```  /oN/hh`     ")
+        print("   `.dN`ooh- .`    .    .  `s /Ms  .    .    `. :ds+-Ms:`   ")
+        print("  `d`MsyNo` .```` .    ``    .s-   ``    . ````. `omhdh-d   ")
+        print("  sM`mh+o` .     .`````.`````//`````.`````.     . -o/hy/M/  ")
+        print("  hM:+oN/ .`     .     .     ss     .     .     `. +Ns:oMo  ")
+        print(" -oMomm:  .     ``     .     --     .     ``     .  :mNsM:/ ")
+        print(" d`dmh-+ ``     .`     . `/`+ss+`/` .     ``     `` s-sNs.N ")
+        print(" Ny.y-N/ `.`````..`.-:+shMh `yy` hMhs+:-.`..`````.` /N:o`dm ")
+        print(" yMo.Nm   .     ```NMMMMMM/ `++` /MMMMMMN```     .   mN-hMo ")
+        print(" -mMsM/:  .     `.sMMMMMMMs  dd  sMMMMMMMs.`     .  +:MyMy-`")
+        print(" h.smd`N. `.     -NMMMMMMMN.`MM`.NMMMMMMMN-     .` :N`hd/:d ")
+        print(" +No:o:M+  `` ```/MMMMMMMMMm:MM:mMMMMMMMMM/``` ``  oM:/:hN: ")
+        print("  +NN+:Ms-- `.`  yMMMMMMMMMMMMMMMMMMMMMMMMy  `.` /-yM:yMd-  ")
+        print("   :omdmd N+  .` NMMMMMMMMMMMMMMMMMMMMMMMMN `.  sm mmmh//   ")
+        print("   -y::sm:yM/  `:MMMMMMMMMMMMMMMMMMMMMMMMMM:`  +Ms/h/:oh.   ")
+        print("    `sNho+.mN-+.-MMMMMMMMMMMMMMMMMMMMMMMMMM::o-Nd-+ymm+     ")
+        print("      `+dNNhdd-mhomMMMMMMMMMMMMMMMMMMMMMMmsdm-dmdMms/       ")
+        print("       `/++++++.smddmMMMMMMMMMMMMMMMMMMmdddo-oo+++o/`       ")
+        print("         .+hNMMNNmdhdMMMMMMMMMMMMMMMMMMhyhdNMMNds/`         ")
+        print("            `///::/smMMMMMMMMMMMMMMMMMMmy+/:///.            ")
+        print("              .+syyyNMMMMMMMMMMMMMMMMMMmosso/.              ")
+        print("                    NMMMMMMMMMMMMMMMMMMN                    ")
+        print("                    .:+syhdmmNNmmdhys+:.                    ")
+        time.sleep(3)
         cls()
         Menu_Utama()
     elif password == 'pls':
         cls()
-        print("Password is zahran")
+        print("Password is uwau")
         delay()
         cls()
         Login()
@@ -41,14 +68,16 @@ def Login():
 #Menu_Utama
 def Menu_Utama():
     cls()
-    print("Welcome To ---Searcher_Tools---")
+    print("Welcome To ===Searcher_Tools===")
     print("Program Coder")
-    print("---AFIF_NAUFAL_ZAHRAN---")
+    print("Program Lenguage = Python 3")
+    print("===AFIF_NAUFAL_ZAHRAN===")
     print("Pilih Program")
     print("[1]Pencari Luas")
     print("[2]Calculator")
     print("[3]WIFI_Booster")
-    print("[4]Version")
+    print("[4]Versions")
+    print("[5]Testing")
     print("[0]Quit_Program")
     print("Note : Masukan Angka Yang Ada Di Kolom Pemilihan Di Pilih : ")
 
@@ -60,14 +89,31 @@ def Menu_Utama():
         Calculator()
     elif menu == 3:
         fake_wifi()
-    elif menu == 4:
-        Version()
     elif menu == 0:
         Quit()
+    elif menu == 4:
+        Versions()
+    elif menu == 5:
+        Tester()
     else:
         print("Program Tidak Di Temukan")
         delay()
         Menu_Utama()
+
+#Tester
+def Tester():
+    cls()
+    test = int(input("Test Angka : "))
+    data_int = test;
+
+    data_bool = bool(data_int)
+    print("Data = ", data_bool,)
+    print("Tipe Data = ", type(data_bool))
+
+#Versions
+def Versions():
+    print("Searcher Tools Versions 1.0")
+    Display_Menu()
 
 #Display_Menu
 def Display_Menu():
@@ -76,7 +122,7 @@ def Display_Menu():
 
 #delay
 def delay():
-    time.sleep(1.3)
+    time.sleep(1)
 
 #clear_System
 def cls():
@@ -84,7 +130,6 @@ def cls():
 
 #fake_wifi
 def fake_wifi():
-    cls()
     print("Welcome To Wifi Booster")
     print("Wifi Booster Script By ---Coder_Builder---")
     print("Note : This Wifi Booster Will Not Ham your Computer System or Wifi System")
@@ -107,6 +152,8 @@ def Calculator():
     print("[2]Pertambahan")
     print("[3]Perkurangan")
     print("[4]Pembagian")
+    print("[5]Perpangkatan")
+    print("[6]Sisa Bagi")
     print("[0]Back To Menu")
 
     pilih = input("Pilih : ")
@@ -119,11 +166,41 @@ def Calculator():
         Pengurangan()
     elif pilih == '4':
         Pembagian()
+    elif pilih == '5':
+        Perpangkat()
+    elif pilih == '6':
+        Sisa_Bagi()
     elif pilih == '0':
         Menu_Utama()
-    else:
-        print("Script Tidak Di TEMUKAN")
-        Display_Menu()
+
+#Persenan
+def Sisa_Bagi():
+    cls()
+    print("Rumus Sisa Bagi Sisa Bagi Dari Pembagian Num / Num1")
+
+    num = int(input("Num1 : "))
+    print("//")
+    num1 = int(input("Num2 : "))
+
+    hasil = num // num1
+
+    print("Hasil = ", hasil)
+
+#Perpangkatan
+def Perpangkatan():
+    cls()
+    print("Rumus Perpangkatan : Num pangkat Num2")
+    print("** = Pangkat Dalam bahasa Pemograman Python")
+
+    num = int(input("Num : "))
+
+    print("**")
+
+    num1 = int(input("Num1 : "))
+
+    hasil = num ** num1
+
+    print("Hasil = ", hasil)
 
 #Pembagian
 def Pembagian():
@@ -147,7 +224,7 @@ def Pengurangan():
     print("Rumus Penguangan, Num1 - Num2")
     
     Num1 = int(input("Num1 : "))
-
+    print("-")
     Num2 = int(input("Num2 : "))
 
     hasil = Num1 - Num2
@@ -162,7 +239,7 @@ def Pertambahan():
     print("Rumus Perkalian, Num1 + Num2")
     
     Num1 = int(input("Num1 : "))
-
+    print("+")
     Num2 = int(input("Num2 : "))
 
     hasil = Num1 + Num2
@@ -177,7 +254,7 @@ def Perkalian():
     print("Rumus Perkalian, Num1 X Num2")
     
     Num1 = int(input("Num1 : "))
-
+    print("X")
     Num2 = int(input("Num2 : "))
 
     hasil = Num1 * Num2
@@ -202,7 +279,7 @@ def pencari_luas():
     elif pilih == 2:
         Lingkaran()
     elif pilih == 3:
-        Persegi_Panjang()
+        Persegi_Panjang
     elif pilih == 0:
         Display_Menu()
     else:
@@ -247,12 +324,6 @@ def Persegi_Panjang():
     luas = Panjang * Lebar
 
     print("Luas Persegi Panjang Adalah =",luas,)
-    Display_Menu()
-
-#Version
-def Version():
-    cls()
-    print("Script Version 1.0")
     Display_Menu()
 
 Login()
